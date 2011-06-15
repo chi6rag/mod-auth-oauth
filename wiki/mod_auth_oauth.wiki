@@ -1,0 +1,17 @@
+#summary mod_auth_oauth project introduction
+
+= Introduction =
+
+The mod_auth_oauth project consists of creating an Apache module that does all the OAuth processing in the context of an Apache module, in the request processing chain of Apache. This means that authorizing an OAuth transaction can now be done by the webserver, and this releases the processing from each and every (backend) service.
+
+As such, it is an elegant way to support OAuth, requiring none to minimal changes to existing services to start supporting OAuth.
+
+
+= Details =
+
+  # explanation of where mod_auth_oauth works in apache chain
+  # explanation of what mod_auth_oauth does *not* do
+  # explanation of link to backend token store
+  # explanation of debug possibilities
+  # explanation of OAuth in context
+  # explanation of HTTP response codes by
