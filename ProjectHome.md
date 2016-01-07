@@ -1,0 +1,1 @@
+Apache module that authorizes OAuth requests, taking OAuth burden away from services that are configured
